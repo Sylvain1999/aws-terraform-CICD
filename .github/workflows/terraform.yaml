@@ -6,7 +6,7 @@ on:
 
 jobs: 
   terraform:
-    run-on: ubuntu-latest 
+    runs-on: ubuntu-latest 
     name: 'terraform'
     steps:
       - name: Checkout
